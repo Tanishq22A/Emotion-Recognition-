@@ -5,20 +5,20 @@ It allows users to **upload audio** or **record live voice** and predicts the **
 
 ---
 
-## ⭐ Features
+## Features
 
-### 🎧 Upload Audio
+### Upload Audio
 Upload `.wav` files and get instant emotion predictions.
 
-### 🎙️ Microphone Recording (3 seconds)
+###  Microphone Recording (3 seconds)
 Record audio directly through your browser and analyse your emotion.
 
-### 🔮 Deep Learning Model
+###  Deep Learning Model
 - CNN model trained on log-mel spectrograms  
 - High accuracy  
 - Uses TensorFlow/Keras backend  
 
-### 🎨 Premium UI / UX
+### Premium UI / UX
 - Glowing neon mic animation  
 - Radial gradients  
 - Glassmorphism cards  
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the App
+## Running the App
 
 Run the following:
 
@@ -121,7 +121,7 @@ Custom CSS adds:
 
 ---
 
-## 🎤 Microphone Recording Logic
+## Microphone Recording Logic
 
 The app records 3 seconds using:
 
@@ -133,15 +133,15 @@ Then saves as a temporary `.wav` file and sends it to the model.
 
 ---
 
-## 📊 Output
+## Output
 
 You get:
-- ⭐ **Predicted Emotion** (large glowing text)
-- 📊 **Probability Bar Chart** for all emotions
+-  **Predicted Emotion** (large glowing text)
+-  **Probability Bar Chart** for all emotions
 
 ---
 
-## 🧠 Required Model Files
+## Required Model Files
 
 Keep these in the same folder as `app.py`:
 
@@ -152,7 +152,7 @@ The app loads them automatically at startup.
 
 ---
 
-## 🏆 Technologies Used
+## Technologies Used
 
 - Streamlit  
 - TensorFlow / Keras  
@@ -164,9 +164,8 @@ The app loads them automatically at startup.
 
 ---
 
-## 📣 Author
+## Author
 
 **Aour Kya Haal Chal – Premium Speech Emotion Recognition App**
 
-Made with ❤️ using Deep Learning + Beautiful UI.
 
